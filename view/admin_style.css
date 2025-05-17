@@ -1,52 +1,48 @@
-/* Apply styles to the body */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
-    padding: 0;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
 
-/* Center the title above the form */
-h2 {
+.headertxt {
     text-align: center;
-    margin-bottom: 15px;
+    margin: 30px 0;
+    padding: 10px;
     font-size: 22px;
 }
 
-/* Style the form */
-form {
+#form {
     background-color: grey;
+    margin-top:20px;
     padding: 20px;
     border-radius: 8px;
     max-width: 400px;
     width: 100%;
-    border: 1px solid #ccc; /* Remove box shadow and add a simple border */
+    border: 1px solid #ccc; 
 }
 
-/* Style labels */
 label {
     font-weight: bold;
     display: block;
     margin-bottom: 5px;
 }
 
-/* Style input fields and select dropdown */
 input, select {
     width: 100%;
     padding: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-/* Style submit button */
 button {
-    background-color: #28a745;
+    background-color: #1e8638;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -56,5 +52,18 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #24963f;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+img {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background: white;
+    max-width: 100%;
 }
